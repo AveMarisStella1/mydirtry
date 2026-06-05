@@ -10,12 +10,4 @@ This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-
-```{r}
-#| echo: false
-#| warning: false
-library(tidyverse)
-dat <- read.csv("data/hemangioma_data.csv")
-dat %>% ggplot(aes(x=Age, y=p16)) + geom_point()
-1 + 1
-```
+![](p16per.png)
