@@ -12,6 +12,10 @@ website:
         text: Analysis
 format:
   html:
+    include-in-header:
+      text: |
+        <meta name="google-site-verification" 
+        content="HbjxIOCzAE0hq5_3BTF6ttnAguce-g-UTSg_kpOXf84" />
     theme:
       - cosmo
       - brand
