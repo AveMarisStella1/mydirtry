@@ -1,0 +1,14 @@
+---
+title: "Analysis"
+format: 
+  html: 
+    href: index.html
+    text: Home
+---
+
+```{r ag}
+#| echo: false
+2+2
+
+
+```
